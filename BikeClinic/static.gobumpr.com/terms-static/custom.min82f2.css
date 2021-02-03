@@ -1,0 +1,661 @@
+@charset "UTF-8";
+.select_mob,
+.sort_buttons:active {
+    color: #ffa800
+}
+.sort_buttons_label,
+label .sort_buttons {
+    outline: 0;
+    box-shadow: none
+}
+#car_text, #bike_text {
+    margin: 3em 0 8em 0;
+}
+#dist,
+#price,
+#ratings,
+li.related_links_li {
+    float: left
+}
+#mobile_sort {
+    display: inline;
+}
+.sort_buttons {
+    height: 45px;
+    width: 28%;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    border-bottom: .1px solid #eee;
+    display: inline-block;
+    background-color: transparent
+}
+.sort_buttons .border_right {
+    right: 0
+}
+.border_right {
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    height: 25px;
+    border-right: 1px solid #eee
+}
+#sorting_mobile {
+    border-top: .1px solid #eee;
+    margin-top: .9em
+}
+.sort_buttons_label {
+    margin: 0;
+    border: 0;
+    display: inline
+}
+#BrandModel_pop_up {
+    width: 400px
+}
+#filter_btn_mob {
+    height: 45px;
+    width: 16%;
+    border: 0;
+    margin-left: -54%;
+    top: 0;
+    outline: 0;
+    background-color: transparent;
+    right: 0;
+    position: absolute;
+    border-bottom: .1px solid #eee
+}
+.show_filters_mob {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000
+}
+.mob_radio_btn {
+    position: relative;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    visibility: hidden;
+}
+sticky_book_now {
+    position: fixed;
+    bottom: 0
+}
+.fake-input {
+    position: relative
+}
+.fake-input input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box
+}
+.fake-input img {
+    position: absolute;
+    top: 5px;
+    left: 5px
+}
+@media only screen and (max-width: 991px) {
+    .main_page#dropdown_icon {
+        margin-top: -4px!important
+    }
+    #dropdown_icon {
+        margin-top: 3%!important
+    }
+    #search_container {
+        height: 700px
+    }
+    .tab-content {
+        padding: 20px!important
+    }
+    #BrandModel_pop_up {
+        width: 100%!important
+    }
+    #position {
+        display: none
+    }
+}
+ul.related_links {
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+li.related_links_li a {
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 22px;
+    color: #777;
+    text-decoration: none
+}
+li.related_links_li a:hover {
+    color: #ffa800
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    #city_header {
+        display: none
+    }
+}
+.icons_first {
+	width:50px;
+	height:50px;
+}
+.service_center_img {
+    width:98%;
+}
+.main-menu ul li {
+	margin-left:-3px !important;
+	margin-right: -1px !important;
+}
+.parallax-window {
+    min-height: 130px !important;
+}
+.labour_free {
+	font-size:0.8em !important;
+}
+.details_img {
+	height:50px;
+	display: table-cell;
+	margin-left:25%;
+}
+@media only screen and (max-width: 768px) {
+	.parallax-window {
+min-height: 100px !important;
+    height: 130px !important;
+margin-top:20px;
+	}
+}
+
+#book_now{
+	text-align:center;
+	position: fixed!important;
+    bottom: 0px!important;
+    margin-bottom: 0px!important;
+	left:0px!important;
+	right:0px!important;
+	margin-left:0px!important;
+    z-index: 1!important;
+	background-color:#ffa800;
+}
+
+@media (max-width:991px)
+{
+	.price_4{ font-size:0.6em!important;}
+}
+
+#papertabs-line,#papertabs-line-sm {
+  background: #ffa800;
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+}
+@-moz-document url-prefix() {
+	.details_img {
+		display:block;
+	}
+}
+
+/* Modal Content */
+.modal-content-lightbox {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  /*max-width: 1200px;*/
+}
+
+/* The Close Button */
+.close-lightbox {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close-lightbox:hover,
+.close-lightbox:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+img > .active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 51px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color:#fff
+}
+img.active,
+.demo:hover {
+  opacity: 1;
+}
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.column > img {
+	width:100px;height:60px;cursor:pointer;
+}
+
+.demo-xs {
+  opacity: 0.6;
+}
+
+img > .active,
+.demo-xs:hover {
+  opacity: 1;
+}
+
+.mySlides-xs {
+  display: none;
+}
+img.active,
+.demo-xs:hover {
+  opacity: 1;
+}
+.fade-box .lazyload,
+     .fade-box .lazyloading {
+        opacity: 0;
+        transition: opacity 400ms;
+    }
+
+    .fade-box img.lazyloaded {
+        opacity: 1;
+    }
+    .blur-up {
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        transition: filter 400ms, -webkit-filter 400ms;
+    }
+
+    .blur-up.lazyloaded {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+    }
+
+ul.add_info li i {
+	color:#777;
+	font-size:20px !important;
+}
+li#search_mobile .form-control {
+	border-left:0 !important;
+	outline:0 !important;
+}
+.dd-options ul {
+	width:100px !important;
+	margin-left: -3px !important;
+}
+.main-menu ul ul li {
+	width:100%;
+}
+.fa-star-o:before, .fa-star:before, .fa-trophy:before, .fa-map-marker:before, .fa-clock-o:before {
+	font-family:FontAwesome !important;
+	font-style:normal !important;
+	font-weight:400 !important;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
+.icon icon-24x7-phone:before {
+	font-size: 52px;
+    margin-top: 10px;
+	font-family:FontAwesome !important;
+	font-style:normal !important;
+	font-weight:400 !important;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
+#social_footer ul li a{
+	line-height:36px !important;
+}
+.pop_up_bm {
+	z-index:1000 !important;
+}
+#car_options_ddslick .dd-options {
+    max-height: 200px !important;
+	overflow-y: scroll !important;
+}
+#bike_options_ddslick .dd-options {
+    max-height: 200px !important;
+	overflow-y: scroll !important;
+}
+#ServiceType .dd-options {
+    max-height: 200px !important;
+	overflow-y: scroll !important;
+}
+
+
+
+.checkmark
+{
+	opacity: 1;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+    background: #fff;
+    border: 2px solid #ddd;
+    width: 22px;
+    padding-bottom: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#logo_home span{margin:10px 0 0;padding:0}#logo_home span a{width:160px;height:34px;display:block;background-image:url(../img/gobumpr/logo/1.png);background-size:160px 34px;text-indent:-9999px;background-position:0 0;background-repeat:no-repeat no-repeat}
+svg{
+  width:100%;
+  visibility:hidden;
+
+}
+.icon_set {
+	font-size:34px;
+
+	color:#777;
+}
+.header-icons {
+	font-size:28px;
+	vertical-align:middle;
+	vertical-align:-webkit-baseline-middle;
+	vertical-align:-moz-middle-with-baseline;
+}
+.icon-search{
+	font-size:18px;
+	vertical-align:middle;
+}
+.icon-car, .icon-motorbike {
+    font-size: 20px;
+    vertical-align: sub;
+    width: 16px !important;
+    height: 16px !important;
+    color: #777;
+}
+#toTop:before {
+	content: "\45" !important;
+	font-family:"gobumpr-icons" !important;
+}
+#icons{
+	font-size: 24px;
+	vertical-align:middle;
+	vertical-align: -webkit-baseline-middle;
+	vertical-align:-moz-middle-with-baseline;
+	margin-right: 4px;
+	color:#777 !important;
+}
+
+#features{
+width:20%;
+height:70px;
+color:#ddd;
+padding:8px 8px 8px 8px;
+}
+#feat_icon{
+font-size:28px;
+color:#ddd;}
+#desc
+{font-size: 12px;line-height: 1.2em;
+color:#ddd;}
+.divider{
+	position:absolute;
+    border-right: 1px solid #ddd;
+	left:100%;
+	bottom:12%;
+	height:54px;
+	}
+@media (max-width:768px){
+#features_row{
+visibility:hidden;}}
+.main-menu ul ul, .main-menu ul .menu-wrapper {
+	margin-left:-3px;
+	min-width:101px;
+	overflow:hidden;
+}
+.parallax-content-2 {
+	padding-bottom: 0px !important;
+}
+.labour_free {
+	font-size:0.8em !important;
+}
+@media only screen and (max-width: 480px) {
+	.parallax-window {
+		max-height: 30%;
+		min-height: 30%;
+	}
+}
+#main_div{
+	width:100%;
+	display:flex;
+	max-height:600px;
+}
+#img_div {
+	width:73.5%;
+	display:inline-block;
+}
+#form_div {
+	width:26.5%;
+	display:inline-block;
+	min-height:450px;
+}
+@media only screen and (max-width: 768px) {
+	#main_div{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 998px) {
+#img_div {
+	width:100%;
+	height:100%;
+	display:inline-block;
+}
+#form_div {
+	width:100%;
+	display:inline-block;
+}
+	#main_div{
+		width:100%;
+		display:inline-block;
+	}
+
+}
+.dd-selected-text{
+	line-height:37px !important;
+}
+.tour_container .tour_title .rating{
+    margin-left:0px !important;
+}
+#hero {
+    height: 400px;
+    background: url(../img/car.jpg) center center no-repeat #4d536d !important;
+}
+.intro_title h3 strong span{
+	color:#ffa800 !important;
+}
+@media (max-width: 480px) {
+.intro_title {
+    display:block !important;
+	margin-top:60px;
+}
+.intro_title h3 {
+    font-size: 22px !important;
+}
+}
+#logo_home span{margin:10px 0 0;padding:0}#logo_home span a{width:160px;height:34px;display:block;background-image:url(../img/gobumpr/logo/1.png);background-size:160px 34px;text-indent:-9999px;background-position:0 0;background-repeat:no-repeat no-repeat}
+.img_container {
+	height:233px !important;
+}
+.form-control {
+    font-size: 12px;
+    color: #333;
+    height: 40px;
+    border-radius: 3px
+}
+.margin_30 {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.tab-content {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding-top: 14px;
+    padding-left: 50px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: none solid solid;
+    border-right-color: #ddd;
+    border-bottom-color: #ddd;
+    border-left-color: #ddd;
+    margin-bottom: 25px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+#search {
+    display: table-cell;
+    padding: 100px 20% 0
+}
+#search .nav-tabs {
+    text-transform: uppercase;
+    font-size: 12px;
+    border-width: 0 0 1px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    margin-left: 10px;
+    border-radius: 0
+}
+#search .nav-tabs>li>a {
+    border: 0;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff!important;
+    background-position: initial initial;
+    background-repeat: initial initial;
+    border-radius: 0
+}
+#search .tab-content {
+    border: 0;
+    color: #333;
+    border-radius: 0
+}
+#search .nav-tabs>li.active>a {
+    color: #fff;
+    background-color: #ffa800 !important;
+}
+@media only screen and (max-width: 800px) {
+    #search_container {
+        background-position-x: -300px
+    }
+}
+input {
+    text-transform: capitalize!important
+}
+@media (max-width: 1200px) and (min-width: 768px) {
+    #search {
+        padding-right: 15%;
+        padding-bottom: 0;
+        padding-left: 15%;
+        padding-top: 0!important
+    }
+}
+@media (max-width: 991px) {
+    ul#top_tools {
+        margin: 3px 45px 0 0
+    }
+    nav {
+        margin-top: 15px
+    }
+    #search {
+        padding: 20px 5% 0
+    }
+}
+@media (max-width: 768px) {
+    #search {
+        padding: 20px 5% 0
+    }
+}
+@media (max-width: 767px) {
+    .main_title {
+        font-size: 14px
+    }
+    .main_title h2 {
+        font-size: 24px
+    }
+    .margin_30 {
+        margin-top: 15px;
+        margin-bottom: 15px
+    }
+}
+@media (max-width: 480px) {
+    ul#top_tools {
+        margin: 0 25px 0 0
+    }
+    #search {
+        padding: 50px 5% 0
+    }
+}
+@media only screen and (max-width: 991px) {
+    .main_page#dropdown_icon {
+        margin-top: -4px!important
+    }
+    #dropdown_icon {
+        margin-top: 3%!important
+    }
+    #search_container {
+        height: 700px
+    }
+    .tab-content {
+        padding: 20px!important
+    }
+}
