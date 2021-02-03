@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-gobumpr.com	TRUE	/	FALSE	1999999999	serviceType	services-repair
-gobumpr.com	TRUE	/	FALSE	1999999999	location	Mg%20Road%2C%20Bangalore
-gobumpr.com	TRUE	/	FALSE	1999999999	city	Bangalore
-
